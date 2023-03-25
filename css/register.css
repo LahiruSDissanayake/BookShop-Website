@@ -1,0 +1,283 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Lobster&family=Patua+One&family=Rubik:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sniglet&display=swap');
+/*
+
+font-family: 'Acme', sans-serif;
+font-family: 'Lobster', cursive;
+font-family: 'Patua One', cursive;
+font-family: 'Rubik', sans-serif;
+font-family: 'Sniglet', cursive;
+*/
+*{
+	box-sizing: border-box;
+	
+}
+
+header,section
+{
+	overflow-x: hidden;
+}
+
+header a
+{
+	font-family: 'Sniglet', cursive;
+	font-size: 1.2rem;
+	color: whitesmoke;
+}
+header
+{
+	background: rgb(10,4,102);
+    background: linear-gradient(90deg, rgba(10,4,102,0.6315476874343487) 8%, rgba(9,65,122,1) 74%);
+	
+}
+
+.dropdown-content
+{
+	display: none;
+	position: absolute;
+	background: white;
+	min-width: 160px;
+	box-shadow: 0px 2px 15px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+}
+.dropdown-content a
+{
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+}
+.dropdown-content a:hover
+{
+	background: #ddd;
+}
+.dropdown:hover .dropdown-content
+{
+	display: block;
+}
+header .nav-item:last-child
+{
+	padding-right: 10.5em;
+}
+header .nav-item
+{
+	padding: 0.9em;
+}
+header .navbar-brand
+{
+	padding-left: 1rem;
+	color: black;
+}
+header .nav-link:hover
+{
+	color: black;
+}
+
+header .row .col-md-5
+{
+	padding: 4.2vmin 1vmin;
+}
+
+header .row .col-md-7
+{
+	padding: 22vmin 1vmin;
+	padding-bottom: 35vmin;
+	font-family: 'Rubik', sans-serif;
+	color:white;	
+}
+
+header .row .col-md-5 img
+{
+	width: 100%;
+	padding-top: 50px;
+}
+
+header .container .col-md-7 h6
+{
+	padding: 1vmin;
+	letter-spacing: 4px;
+}
+header .container .col-md-7 h1
+{
+	font-size: 8vmin;
+	font-weight: bold;
+	padding: 0.1em 0em;
+}
+
+header .container .col-md-7 p
+{
+	padding: 1vmin 5vmin;
+}
+
+header .container .col-md-7 button
+{
+	border-radius: 30px;
+	font-weight: bold;
+}
+
+/*-Register Form--*/
+
+.register-page
+{
+	padding:50px 0;
+	height: 600px;
+	
+}
+.form-container
+{
+	background: #fff;
+	width: 300px;
+	height: 400px;
+	position: relative;
+	text-align: center;
+	padding: 20px 0;
+	margin: auto;
+	box-shadow: 0 0 20px 0px rgba(0,0,0,0.1);
+	
+}
+.form-container h2
+{
+	font-weight: bold;
+	padding: 0 10px;
+	color: #555;
+	cursor: pointer;
+	width: 100px;
+	display: inline-block;
+}
+.form-header
+{
+	display: inline-block;
+	padding-left: -20px;
+}
+ .col-2 img{
+	max-width: 100%;
+	padding: 50px 0;
+
+}
+ .col-2{
+	flex-basis: 50%;
+	min-width: 300px;
+}
+ .row{
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	margin-top: 70px;
+	
+}
+.container{
+	max-width: 1300px;
+	margin: auto;
+	padding-left: 25px;
+	padding-right: 25px;
+	
+	
+}
+
+.form-container form
+{
+	max-width: 300px;
+	padding: 0 20px;
+	position: absolute;
+	top: 130px;
+	
+}
+.carousel-inner
+{
+	width: 500px;
+}
+
+form input
+{
+	width: 100%;
+	height: 30px;
+	margin: 10px 0;
+	padding: 0 10px;
+	border: 1px solid #ccc;
+}
+form .btn
+{
+	width: 100%;
+	border: none;
+	cursor: pointer;
+	margin: 10px 0;
+	
+}
+form .btn:focus
+{
+	outline: none;
+}
+form a
+{
+	font-size: 12px;
+}
+
+/*Footer*/
+
+footer
+{
+	background: rgba(0,0,0,0.815);
+	overflow-x: hidden;
+	padding: 14vmin 18vmin;
+}
+
+footer p>span
+{
+	color: #ff512f;
+}
+
+footer input
+{
+	border: none !important;
+}
+
+footer input::placeholder
+{
+	color: white !important;
+}
+
+footer .input-group .input-group-text
+{
+	
+	background: #ff512f;
+	border: none;
+}
+footer .column i
+{
+	color: #dd2476;
+}
+footer .column i+i
+{
+	padding: 0 0.5em;
+}
+
+
+@media only screen and (max-width:768px)
+{
+	header.navbar-brand
+	{
+		padding-left:1rem;
+	}
+	
+}
+
+@media only screen and (max-width:425px)
+{
+	footer.row.col-md-2
+	{
+		margin-top: 8vmin;
+	}
+		.row
+	{
+		text-align: center;
+		
+	}
+	.register-page.col-2
+	{
+		flex-basis: 100%;
+	}
+}
+
+
+
